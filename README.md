@@ -8,6 +8,7 @@
 
 #### 3) Eğitim ve algılama için gerekli programları indirin
 ``` !wget https://github.com/tensorflow/hub/raw/master/examples/image_retraining/retrain.py ```
+
 ``` !wget https://github.com/tensorflow/tensorflow/raw/master/tensorflow/examples/label_image/label_image.py ```
 	
 #### 3) Dataseti eğitme; --image_dir parametresi resimlerinizin bulunduğu klasörü belirtmektedir.
