@@ -22,3 +22,6 @@
 
 #### retrain.py programı varsayılan olarak inception modelini kullanmaktadır. Farklı model kullanarak eğitmek için;
 ``` !python3 retrain.py --how_many_training_steps=500 --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=flower_photos --tfhub_module https://tfhub.dev/google/imagenet/mobilenet_v2_100_224/feature_vector/2 ```
+
+#### label_image.py programında kullanılan modele göre image_width ve image_height parametreleri belirtilmelidir. Varsayılan 299*299 pixel.
+``` !python3 label_image.py --graph=retrained_graph.pb --labels=retrained_labels.txt --input_height=224 --input_width=224 --image=s1.jpg ```
