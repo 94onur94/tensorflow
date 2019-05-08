@@ -1,7 +1,7 @@
 # tensorflow
 ### Google Colaboratory üzerinde tensorflow kullanımı;
 
-#### 1) Dataset indirme; aşağıdaki komutu, colab komut sistemine kopyalarak çalıştırınız. (root dizininde olduğunuzdan emin olunuz)
+#### 1) Dataset indirme; aşağıdaki komutu, colab komut sisteminde çalıştırınız. (root dizininde olduğunuzdan emin olunuz)
 ``` !wget http://download.tensorflow.org/example_images/flower_photos.tgz ```
 
 #### 2) Dataseti dizine çıkartma; indirilen .tgz dosyasını bulunduğunuz dizine çıkartınız.
