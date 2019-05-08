@@ -4,7 +4,7 @@
 2) Dataseti dizine çıkartma; indirilen .tgz dosyasını bulunduğunuz dizine çıkartınız.
 !tar -zxf flower_photos.tgz
 
-3) Eğitim ve algılama için gerekli programları indirin.
+3) Eğitim ve algılama için gerekli programları indiriniz.
 !wget https://raw.githubusercontent.com/94onur94/tensorflow/master/retrain.py
 !wget https://raw.githubusercontent.com/94onur94/tensorflow/master/label_image.py
 
