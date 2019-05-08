@@ -1,4 +1,4 @@
-1) Aşağıdaki kodları colab komut sistemine kopyalayarak çalıştırın.
+1) Aşağıdaki kodları colaboratory komut sisteminde çalıştırın.
 	!apt-get install -y -qq software-properties-common python-software-properties module-init-tools
 	!add-apt-repository -y ppa:alessandro-strada/ppa 2>&1 > /dev/null
 	!apt-get update -qq 2>&1 > /dev/null
@@ -14,5 +14,5 @@
 	!mkdir -p /root/drive
 	!google-drive-ocamlfuse /root/drive
 
-2) Aşağıdaki kodu colab komut sistemine kopyalarak çalışma dizininizi root klasörü olarak ayarlayın. Komut çıktısı olarak "/root" mesajını görmelisiniz.
+2) Aşağıdaki kodu colaboratory komut sisteminde çalıştırarak aktif dizininizi root klasörü olarak ayarlayın. Komut çıktısı olarak "/root" mesajını görmelisiniz.
 	cd /root/
