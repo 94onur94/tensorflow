@@ -20,5 +20,5 @@
 ``` !python3 label_image.py --graph=retrained_graph.pb --labels=retrained_labels.txt --image_dir=photos ```
 
 
-#### retrain.py programı varsayılan olarak inception modelini kullanmaktadır. Başka model kullanarak eğitmek için;
+##### retrain.py programı varsayılan olarak inception modelini kullanmaktadır. Farklı model kullanarak eğitmek için;
 ``` !python3 retrain.py --how_many_training_steps=500 --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=flower_photos --tfhub_module https://tfhub.dev/google/imagenet/mobilenet_v2_100_224/feature_vector/2 ```
