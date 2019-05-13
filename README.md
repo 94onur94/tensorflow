@@ -12,10 +12,10 @@
 
 ``` !wget https://raw.githubusercontent.com/94onur94/tensorflow/master/label_image.py ```
 	
-#### 3) Dataseti eğitme; --image_dir parametresi resimlerinizin bulunduğu klasörü belirtmektedir.
+#### 4) Dataseti eğitme; --image_dir parametresi resimlerinizin bulunduğu klasörü belirtmektedir.
 ``` !python3 retrain.py --how_many_training_steps=500 --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=flower_photos ```
 
-#### 4) Eğitilen modeli test etme; --image parametresi tek resim sorgulamak, --image_dir parametresi klasör içindeki resimleri sorgulamak için kullanılır.
+#### 5) Eğitilen modeli test etme; --image parametresi tek resim sorgulamak, --image_dir parametresi klasör içindeki resimleri sorgulamak için kullanılır.
 ``` !python3 label_image.py --graph=retrained_graph.pb --labels=retrained_labels.txt --image=s1.jpg ```
 
 ``` !python3 label_image.py --graph=retrained_graph.pb --labels=retrained_labels.txt --image_dir=photos ```
