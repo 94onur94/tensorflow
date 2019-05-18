@@ -133,7 +133,7 @@ if __name__ == "__main__":
       if len(os.listdir(image_dir) ) == 0:
           print("Directory is empty")
       py = pathlib.Path().glob(image_dir + "/*")
-      for file in py:
+      for file in sorted(py):
           file_name = str(file)
           make_prediction()
   else:
