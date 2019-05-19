@@ -5,7 +5,7 @@
 ``` !wget http://download.tensorflow.org/example_images/flower_photos.tgz ```
 
 #### 2) Dataseti dizine çıkartma; indirilen .tgz dosyasını bulunduğunuz dizine çıkartınız.
-``` !tar -zxf flower_photos.tgz ```
+``` !tar -xzvf flower_photos.tgz ```
 
 #### 3) Eğitim ve algılama için gerekli programları indiriniz.
 ``` !wget https://raw.githubusercontent.com/94onur94/tensorflow/master/retrain.py ```
