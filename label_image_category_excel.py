@@ -171,7 +171,7 @@ if __name__ == "__main__":
         avg += (count_right/total)*100
         column += 1
     print("Average success rate " + str(avg/column)[:5])
-    sheet.write(1, column, "%" + "Total success rate " + str(avg/column)[:5], style_green)
+    sheet.write(1, column, "Average success rate %" + str(avg/column)[:5], style_green)
     workbook.save("sample.xls")
   else:
       print("image_dir parameter is empty")
