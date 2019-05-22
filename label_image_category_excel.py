@@ -154,7 +154,6 @@ if __name__ == "__main__":
     for folder in sorted(py):
         folder_name = str(folder)[len(image_dir)+1:]
         sheet.write(0, column, folder_name, style_bold)
-        index += 1
         print(folder_name)
         row=1
         total=0
