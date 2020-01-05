@@ -8,9 +8,9 @@
 ``` !tar -xzvf flower_photos.tgz ```
 
 #### 3) Eğitim ve algılama için gerekli programları indiriniz.
-``` !wget https://raw.githubusercontent.com/94onur94/tensorflow/master/retrain.py ```
+``` !wget https://raw.githubusercontent.com/onur94/tensorflow/master/retrain.py ```
 
-``` !wget https://raw.githubusercontent.com/94onur94/tensorflow/master/label_image.py ```
+``` !wget https://raw.githubusercontent.com/onur94/tensorflow/master/label_image.py ```
 	
 #### 4) Dataseti eğitme; --image_dir parametresi resimlerinizin bulunduğu klasörü belirtmektedir.
 ``` !python3 retrain.py --how_many_training_steps=500 --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=flower_photos ```
